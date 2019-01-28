@@ -8,6 +8,8 @@
 </head>
 <body>
 	<h4>Easy BookStore</h4>
-	<a href="Hello">hello</a>
+	<a href="Hello">hello</a><br><br>
+	
+	<a href="testController">testController</a><br><br>
 </body>
 </html>
