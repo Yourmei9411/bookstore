@@ -30,7 +30,7 @@
 		<property name="mapperLocations" value="classpath:mapper/*.xml"></property>
 	</bean>
 	
-	<!-- 这段配置会扫描org.mybatis.spring.sample.mapper下的所有接口，然后创建各自接口的动态代理类 -->
+	<!-- 这段配置会扫描caffrey.dao下的所有接口，然后创建各自接口的动态代理类 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="caffrey.dao"></property>
 	</bean>
